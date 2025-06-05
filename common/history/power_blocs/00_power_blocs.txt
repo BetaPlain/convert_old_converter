@@ -1,0 +1,60 @@
+﻿POWER_BLOCS = {
+	c:GBR = {
+		create_power_bloc = {
+			name = GBR_BLOC
+			map_color = { 229 68 78 }
+			founding_date = 1561.10.17
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:WIN
+		}
+	}
+
+	c:PER = {
+		create_power_bloc = {
+			name = PER_BLOC
+			map_color = { 60 150 230 }
+			founding_date = 1483.5.24
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:KAS
+			member = c:KMC
+			member = c:LAD
+			member = c:PAN
+			member = c:W40
+			member = c:X34
+			member = c:X67
+		}
+	}
+
+	c:SPA = {
+		create_power_bloc = {
+			name = SPA_BLOC
+			map_color = { 211 136 6 }
+			founding_date = 1545.5.2
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:ANK
+			member = c:BNY
+			member = c:BRD
+			member = c:PEU
+			member = c:X16
+		}
+	}
+
+	c:TUS = {
+		create_power_bloc = {
+			name = TUS_BLOC
+			map_color = { 84 96 136 }
+			founding_date = 1.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:W38
+		}
+	}
+
+}
